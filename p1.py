@@ -1,0 +1,5 @@
+l=list(map(int,input().split()))
+l.sort()
+print(l[0])
+print(l[-1])
+print(sum(l)/len(l))
